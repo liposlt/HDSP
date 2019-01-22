@@ -1,3 +1,6 @@
+//By liposlt
+//HDSP2000测试程序
+
 //测试版pin脚接线
  /*************************
 DATA  D2
@@ -42,31 +45,11 @@ uint8_t bmp_dat[80] = {
   0x0C, 0x12, 0x24, 0x12, 0x0C, 0x0C, 0x12, 0x24, 0x12, 0x0C,
 };
 void loop() {
-//  Serial.println((conversion(0x3e)<<24) | (conversion(0x00)<<17) | (conversion(0x46)<< 10) | (conversion(0x31)<<3),HEX);
-//  for (int i=0;i<96;i++){
-//    for (int j=0;j<10;j++){
-//      HDSP2000_ShowChar(0x20+i, 0x21+i, 0x22+i, 0x23+i);
-//    }
-//  }
-//  HDSP2000_ShowChar(0x20+90, 0x20+58, 0x20+88, 0x20+75);
-//hdsp2000_put_pixel(random(0,19),random(0,6));
-//delay(600);
-//hdsp2000_put_pixel(random(0,7),random(0,7));
-//  for (int i=0;i<7;i++){
-//    for (int j=0;j<1;j++){
-//        hdsp2000_put_pixel(0,i);
-//    }
-//  }
-//hdsp2000_put_pixel(0,6);
-//  for (int i=0;i<20;i++){
-//    hdsp2000_displayPic(bmp_dat+i);
-//  }
   for (int i=0;i<20;i++){
     for (int j=0;j<20;j++){ 
       hdsp2000_displayPic(bmp_dat+40+i);
     }
   }
-//HDSP2000_ShowChar('0','5','2','1');
 }
 void HDSP2000_ShowChar(uint8_t chr1, uint8_t chr2, uint8_t chr3, uint8_t chr4){
   uint8_t c1 = 0, c2 = 0, c3 = 0, c4 = 0;
