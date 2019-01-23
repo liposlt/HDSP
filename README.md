@@ -1,5 +1,5 @@
 # HDSP
-This folder contains some vintage LED and Dot Martrix arduino drivers. 
+This folder contains some vintage LED and Dot Martrix arduino drivers.     
 There are some component：  
 **HPDL1414** **HPDL2416**  **HDSP2000** **HDSP0772**  
 **HDSP2112** **HCMS2973**  **DLG3416**  **DL1814**  
