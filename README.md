@@ -1,9 +1,9 @@
 # HDSP
-此文件夹包含了一些古董LED和点阵的arudino驱动程序。  
-包含的器件有以下型号：  
+This folder contains some vintage LED and Dot Martrix arduino drivers. 
+There are some component：
 **HPDL1414** **HPDL2416**  **HDSP2000** **HDSP0772**  
 **HDSP2112** **HCMS2973**  **DLG3416**  **DL1814**  
 **PD2437**   **PDSP1881**  **QDSP6064** **SCE5784**  
 **TIL311**   **TIL305**    **SLG2016**  **3LS363A**  
-更多的器件正在收集中...  
+More is being collected.
 
